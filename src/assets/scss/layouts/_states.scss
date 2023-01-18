@@ -1,0 +1,31 @@
+// DISPLAY
+.block { display: block }
+.inline-block { display: inline-block }
+.none { display: none }
+.flex { display: flex }
+.inline-flex { display: inline-flex }
+
+// POSITION
+.relative { position: relative }
+.fixed { position: fixed }
+.absolute { position: absolute }
+
+// TEXT
+.text-center { text-align: center; }
+.text-start { text-align: start; }
+.text-end { text-align: end; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-justify { text-align: justify; }
+
+// PINS
+.pin-t { top: 0 }
+.pin-l { left: 0 }
+.pin-b { bottom: 0 }
+.pin-r { right: 0 }
+
+// POINTER EVENT
+.pointer-events-none { pointer-events: none; }
+
+// USER SELECT
+.user-select-none { user-select: none; }

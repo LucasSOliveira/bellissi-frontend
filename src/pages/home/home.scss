@@ -1,0 +1,30 @@
+@import "../../assets/scss/variables/index.scss";
+
+.home {
+    &__presentation {
+        width: 100%;
+        @media only screen and (min-width: 768px) {
+            width: 40%;
+        }
+    }
+    &__hero {
+        width: 50%;
+        max-width: 520px;
+        @media only screen and (max-width: 768px) {
+            position: relative;
+            left: -80px;
+            opacity: 40%;
+        }
+    }
+    &__cards {
+        &--card {
+            background-color: $color-text-secondary;
+            width: 30%;
+            min-width: 180px;
+            img {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    }
+}

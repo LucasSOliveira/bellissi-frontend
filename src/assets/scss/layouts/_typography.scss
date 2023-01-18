@@ -1,0 +1,59 @@
+.font-display-01 { font-size: $font-size-display-hg; }
+
+h1 {
+  font-size: $font-size-h1;
+}
+h2 {
+  font-size: $font-size-h2; 
+}
+p {
+  font-family: $font-family-01;
+  font-size: $font-size-regular;
+  line-height: 1.4;
+}
+.font-mobile-default {
+  font-family: $font-family-01;
+  font-size: $font-size-mb-default;
+}
+
+.font-default {
+  font-family: $font-family-01;
+  font-size: $font-size-default;
+}
+
+.font-family-01 { font-family: $font-family-01; }
+.font-family-02 { font-family: $font-family-02; }
+.text-italic { font-style: italic; }
+.text-bold { font-style: bold; }
+
+.text-opacity-hg { opacity: $font-opacity-hg; }
+.text-opacity-md { opacity: $font-opacity-md; }
+.text-opacity-sm { opacity: $font-opacity-sm; }
+
+button {
+  font-family: $font-family-01;
+  font-size: $font-size-regular;
+  font-weight: $font-weight-bold;
+  letter-spacing: 1px;
+}
+
+a {
+  text-decoration: none;
+  color: $color-text-primary;
+  cursor: pointer;
+  &:focus, &:visited, &:hover {
+    outline: 0;
+    border: none;
+    color: $color-text-primary;
+  }
+}
+
+input {
+  font-family: $font-family-01;
+  font-size: $font-size-default;
+  letter-spacing: 0.15px;
+  color: $color-text-primary;
+  &::placeholder {
+    color: $color-text-secondary;
+  }
+}

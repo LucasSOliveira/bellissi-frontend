@@ -1,0 +1,42 @@
+
+// BORDER RADIUS
+.rounded { border-radius: $border-radius-default }
+.rounded-top { border-top-left-radius: $border-radius-default; border-top-right-radius: $border-radius-default; }
+.rounded-right { border-top-right-radius: $border-radius-default; border-bottom-right-radius: $border-radius-default; }
+.rounded-bottom { border-bottom-left-radius: $border-radius-default; border-bottom-right-radius: $border-radius-default; }
+.rounded-left { border-top-left-radius: $border-radius-default; border-bottom-left-radius: $border-radius-default; }
+.rounded-circle { border-radius: $border-radius-circle }
+
+// CURSOR DEFAULT
+.cursor-default { cursor: default; }
+.cursor-text { cursor: text; }
+.cursor-pointer { cursor: pointer; }
+.cursor-not-allowed { cursor: not-allowed; }
+
+// BORDER
+.border-width-default { border-width: $border-width-default }
+
+// BORDER DEFAULT
+.border-default { border: $border-width-default solid rgba($color-ui-black, $opacity-low-min)}
+.border-b-default { border-bottom: $border-width-default solid rgba($color-ui-black, $opacity-low-min)}
+.border-t-default { border-top: $border-width-default solid rgba($color-ui-black, $opacity-low-min)}
+.border-l-default { border-left: $border-width-default solid rgba($color-ui-black, $opacity-low-min)}
+.border-r-default { border-right: $border-width-default solid rgba($color-ui-black, $opacity-low-min)}
+
+// OPACITY
+.opacity-mid-max { opacity: $opacity-mid-max; }
+.opacity-mid-half { opacity: $opacity-mid-half; }
+.opacity-mid-min { opacity: $opacity-mid-min; }
+
+.opacity-low-min { opacity: $opacity-low-min; }
+.opacity-low-half { opacity: $opacity-low-half; }
+.opacity-low-max { opacity: $opacity-low-max; }
+
+// overflow
+
+.overflow-hidden { overflow: hidden; }
+.overflow-scroll { overflow: scroll; }
+.overflow-auto { overflow: auto; }
+
+// INFORMATION LIMITATION
+.limited-info-style { white-space: nowrap; padding-right: 0; overflow: hidden; text-overflow: ellipsis; }

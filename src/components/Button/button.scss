@@ -1,0 +1,20 @@
+@import '../../assets/scss/variables/index.scss';
+
+.button {
+    border-radius: $border-radius-default;
+    padding: 8px;
+    height: 40px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    &.primary {
+        color: $color-ui-white;
+        background-color: $color-brand-primary;
+        border: none;
+    }
+    &.secondary {
+        background-color: $color-ui-white;
+        color: $color-brand-primary;
+        border: 2px solid $color-brand-primary;
+    }
+}

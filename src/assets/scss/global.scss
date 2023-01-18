@@ -1,0 +1,22 @@
+@import "./variables";
+
+@import "./utils/normalize";
+@import "./utils/reset";
+@import "./utils/grid.brekpoints";
+
+@import "./layouts/flexbox";
+@import "./layouts/typography";
+@import "./layouts/grid";
+@import "./layouts/colors";
+@import "./layouts/sizes";
+@import "./layouts/spacing";
+@import "./layouts/states";
+@import "./layouts/ui";
+
+
+#root {
+  font-family: $font-family-01;
+  color: $color-text-primary;
+  background-color: $color-ui-background-default;
+  height: 100%;
+}
